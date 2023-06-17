@@ -1,11 +1,10 @@
 import { ApiHandler } from 'sst/node/api'
-import { default as data } from '../data/plugins.json'
-import Fuse from 'fuse.js'
+import { search } from '@find-tabnvim/core/search'
 import { z } from 'zod'
 
 const querySchema = z.object({
   q: z.string().min(3).max(50),
-  tags: z.string().optional(),
+  tag: z.string().optional(),
 })
 
 const pluginDataSchema = z
@@ -19,25 +18,12 @@ const pluginDataSchema = z
   })
   .partial()
 
-type PluginData = z.infer<typeof pluginDataSchema>
-
 const responseSchema = z.object({
   results: z.array(pluginDataSchema),
   total: z.number(),
 })
 
 type ResponseData = z.infer<typeof responseSchema>
-
-const fuse = new Fuse(data, {
-  findAllMatches: true,
-  keys: [
-    { name: 'name', weight: 3 },
-    { name: 'description', weight: 2 },
-    { name: 'tags', weight: 1 },
-  ],
-  includeScore: true,
-  useExtendedSearch: true,
-})
 
 export const query = ApiHandler(async (evt) => {
   const parsed = querySchema.safeParse(evt.queryStringParameters)
@@ -48,7 +34,7 @@ export const query = ApiHandler(async (evt) => {
     }
   }
 
-  const results = fuse.search(parsed.data.q)
+  const results = search(parsed.data)
 
   const body: ResponseData = responseSchema.parse({
     results: results.map(({ item, score = 0 }) => {
