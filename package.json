@@ -2,7 +2,6 @@
   "name": "find-tabnvim",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "sst dev",
     "build": "sst build",
@@ -14,7 +13,8 @@
   },
   "devDependencies": {
     "@darksinge/eslint-config": "^1.0.5",
-    "@tsconfig/node16": "^1.0.4",
+    "@tsconfig/node18": "^2.0.1",
+    "@types/node": "^20.3.1",
     "aws-cdk-lib": "2.79.1",
     "constructs": "10.1.156",
     "eslint": "^8.43.0",

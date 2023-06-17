@@ -7,9 +7,13 @@
     "typecheck": "tsc -noEmit"
   },
   "devDependencies": {
-    "@types/node": "^20.3.1",
     "@types/aws-lambda": "^8.10.119",
-    "vitest": "^0.32.2",
-    "sst": "^2.13.6"
+    "@types/node": "^20.3.1",
+    "sst": "^2.13.6",
+    "vitest": "^0.32.2"
+  },
+  "dependencies": {
+    "fuse.js": "^6.6.2",
+    "zod": "^3.21.4"
   }
 }

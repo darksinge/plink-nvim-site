@@ -11,9 +11,12 @@ importers:
       '@darksinge/eslint-config':
         specifier: ^1.0.5
         version: 1.0.5(@typescript-eslint/eslint-plugin@5.59.11)(@typescript-eslint/parser@5.59.11)(eslint-config-prettier@8.8.0)(eslint-plugin-prettier@4.2.1)(eslint@8.43.0)(prettier@2.8.8)
-      '@tsconfig/node16':
-        specifier: ^1.0.4
-        version: 1.0.4
+      '@tsconfig/node18':
+        specifier: ^2.0.1
+        version: 2.0.1
+      '@types/node':
+        specifier: ^20.3.1
+        version: 20.3.1
       aws-cdk-lib:
         specifier: 2.79.1
         version: 2.79.1(constructs@10.1.156)
@@ -50,6 +53,13 @@ importers:
         version: 0.32.2
 
   packages/functions:
+    dependencies:
+      fuse.js:
+        specifier: ^6.6.2
+        version: 6.6.2
+      zod:
+        specifier: ^3.21.4
+        version: 3.21.4
     devDependencies:
       '@types/aws-lambda':
         specifier: ^8.10.119
@@ -2490,8 +2500,8 @@ packages:
       tslib: 2.5.3
     dev: true
 
-  /@tsconfig/node16@1.0.4:
-    resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
+  /@tsconfig/node18@2.0.1:
+    resolution: {integrity: sha512-UqdfvuJK0SArA2CxhKWwwAWfnVSXiYe63bVpMutc27vpngCntGUZQETO24pEJ46zU6XM+7SpqYoMgcO3bM11Ew==}
     dev: true
 
   /@types/aws-lambda@8.10.119:
@@ -4283,6 +4293,11 @@ packages:
   /function-bind@1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
     dev: true
+
+  /fuse.js@6.6.2:
+    resolution: {integrity: sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==}
+    engines: {node: '>=10'}
+    dev: false
 
   /gauge@1.2.7:
     resolution: {integrity: sha512-fVbU2wRE91yDvKUnrIaQlHKAWKY5e08PmztCrwuH5YVQ+Z/p3d0ny2T48o6uvAAXHIUnfaQdHkmxYbQft1eHVA==}

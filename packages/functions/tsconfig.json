@@ -1,8 +1,9 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
+  "extends": "@tsconfig/node18/tsconfig.json",
   "compilerOptions": {
     "module": "esnext",
     "baseUrl": ".",
+    "resolveJsonModule": true,
     "paths": {
       "@find-tabnvim/core/*": ["../core/src/*"]
     }

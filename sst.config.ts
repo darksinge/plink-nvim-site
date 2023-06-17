@@ -1,11 +1,13 @@
 import { SSTConfig } from 'sst'
-import { API } from './stacks/MyStack'
+import { API } from './stacks/Api'
 
 export default {
-  config(_input) {
+  config() {
     return {
       name: 'find-tabnvim',
       region: 'us-east-1',
+      stage: 'dev',
+      profile: 'personal',
     }
   },
   stacks(app) {
