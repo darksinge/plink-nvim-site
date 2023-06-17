@@ -1,0 +1,4 @@
+{
+  "extends": ["@darksinge"],
+  "ignorePatterns": ["node_modules", ".vscode"]
+}

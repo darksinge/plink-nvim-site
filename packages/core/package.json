@@ -1,0 +1,17 @@
+{
+  "name": "@find-tabnvim/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^0.32.2",
+    "@types/node": "^20.3.1",
+    "sst": "^2.13.6"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  }
+}
