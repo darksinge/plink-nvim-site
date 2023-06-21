@@ -1,8 +1,8 @@
 # plink-nvim-site
 
 This is the backend code for
-[plink.nvim](https://github.com/darksinge/plink.nvim), hosted on AWS using
-[SST](https://sst.dev).
+[plink.nvim](https://github.com/darksinge/plink.nvim), hosted on AWS and
+deployed using the excellent [SST](https://sst.dev) framework.
 
 ## Installation
 
