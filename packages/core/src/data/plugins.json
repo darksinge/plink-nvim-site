@@ -4884,5 +4884,12 @@
     "description": "Dotfyle is a site for sharing and discovering Neovim configs and plugins.",
     "tags": ["resource"],
     "stars": 0
+  },
+  {
+    "name": "Neodash",
+    "url": "https://github.com/darksinge/neodash.nvim",
+    "description": "A utility library providing 'lodash' like functions for Lua",
+    "tags": ["utility"],
+    "stars": 0
   }
 ]
