@@ -2814,6 +2814,13 @@
     "stars": 0
   },
   {
+    "name": "darksinge/neodash.nvim",
+    "url": "https://github.com/darksinge/neodash.nvim",
+    "description": "A utility library providing 'lodash' like functions for Lua",
+    "tags": ["utility"],
+    "stars": 0
+  },
+  {
     "name": "LoricAndre/OneTerm.nvim",
     "url": "https://github.com/LoricAndre/OneTerm.nvim",
     "description": "Plugin framework for running commands in the terminal.",
@@ -4883,13 +4890,6 @@
     "url": "https://dotfyle.com",
     "description": "Dotfyle is a site for sharing and discovering Neovim configs and plugins.",
     "tags": ["resource"],
-    "stars": 0
-  },
-  {
-    "name": "Neodash",
-    "url": "https://github.com/darksinge/neodash.nvim",
-    "description": "A utility library providing 'lodash' like functions for Lua",
-    "tags": ["utility"],
     "stars": 0
   }
 ]
