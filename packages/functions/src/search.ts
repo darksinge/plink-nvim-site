@@ -5,6 +5,7 @@ import { z } from 'zod'
 const querySchema = z.object({
   q: z.string().min(3).max(50),
   tag: z.string().optional(),
+  testDelay: z.coerce.number().optional(),
 })
 
 const pluginDataSchema = z
@@ -25,6 +26,8 @@ const responseSchema = z.object({
 
 type ResponseData = z.infer<typeof responseSchema>
 
+const sleep = (t = 1000) => new Promise((resolve) => setTimeout(resolve, t))
+
 export const query = ApiHandler(async (evt) => {
   const parsed = querySchema.safeParse(evt.queryStringParameters)
   if (!parsed.success) {
@@ -34,7 +37,15 @@ export const query = ApiHandler(async (evt) => {
     }
   }
 
-  const results = search(parsed.data)
+  const {
+    data: { testDelay, ...data },
+  } = parsed
+
+  if (testDelay) {
+    await sleep(testDelay)
+  }
+
+  const results = search(data)
 
   const body: ResponseData = responseSchema.parse({
     results: results.map(({ item, score = 0 }) => {

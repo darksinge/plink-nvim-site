@@ -49,6 +49,13 @@
     "stars": 1000
   },
   {
+    "name": "darksinge/plink.nvim",
+    "url": "https://github.com/darksinge/plink.nvim",
+    "description": "Plugin finder",
+    "tags": ["plugin"],
+    "stars": 11
+  },
+  {
     "name": "neovim/nvim-lspconfig",
     "url": "https://github.com/neovim/nvim-lspconfig",
     "description": "Quickstart configurations for the LSP client.",
