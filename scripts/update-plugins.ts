@@ -36,8 +36,8 @@ const re =
 const fout = path.resolve(__dirname, '../packages/core/src/data/plugins.json')
 
 const fetchPlugins = async (): Promise<Plugin[]> => {
-  // const { data } = await axios.get('https://nvim.sh/s')
-  const data = fs.readFileSync(path.join(__dirname, './nvim.sh.txt')).toString()
+  const { data } = await axios.get('https://nvim.sh/s')
+  // const data = fs.readFileSync(path.join(__dirname, './nvim.sh.txt')).toString()
 
   if (typeof data !== 'string') {
     throw new Error('expected data to be a string')
