@@ -9,12 +9,11 @@
   },
   {
     "name": "2nthony/vitesse.nvim",
-    "stars": 23,
-    "openIssues": 0,
-    "updated": "2023-07-12T02:09:04.000Z",
-    "description": "Vitesse theme for neovim in Lua using colorbuddy",
     "url": "https://github.com/2nthony/vitesse.nvim",
-    "tags": []
+    "description": "Vitesse theme for neovim in Lua using colorbuddy",
+    "tags": [],
+    "stars": 23,
+    "openIssues": 0
   },
   {
     "name": "4e554c4c/darkman.nvim",
@@ -265,12 +264,11 @@
   },
   {
     "name": "andrewferrier/textobj-diagnostic.nvim",
-    "stars": 94,
-    "openIssues": 2,
-    "updated": "2022-12-31T21:13:54.000Z",
-    "description": "NeoVim text object that finds diagnostics",
     "url": "https://github.com/andrewferrier/textobj-diagnostic.nvim",
-    "tags": []
+    "description": "NeoVim text object that finds diagnostics",
+    "tags": [],
+    "stars": 94,
+    "openIssues": 2
   },
   {
     "name": "andweeb/presence.nvim",
@@ -306,12 +304,11 @@
   },
   {
     "name": "antonk52/markdowny.nvim",
-    "stars": 57,
-    "openIssues": 1,
-    "updated": "2023-02-18T13:05:35.000Z",
-    "description": "Markdown like keymaps for toggling text formatting",
     "url": "https://github.com/antonk52/markdowny.nvim",
-    "tags": []
+    "description": "Markdown like keymaps for toggling text formatting",
+    "tags": [],
+    "stars": 57,
+    "openIssues": 1
   },
   {
     "name": "anuvyklack/animation.nvim",
@@ -330,12 +327,11 @@
   },
   {
     "name": "anuvyklack/fold-preview.nvim",
-    "stars": 79,
-    "openIssues": 1,
-    "updated": "2023-01-27T16:58:40.000Z",
-    "description": "Preview folds in float window",
     "url": "https://github.com/anuvyklack/fold-preview.nvim",
-    "tags": []
+    "description": "Preview folds in float window",
+    "tags": [],
+    "stars": 79,
+    "openIssues": 1
   },
   {
     "name": "anuvyklack/hydra.nvim",
@@ -371,12 +367,11 @@
   },
   {
     "name": "aPeoplesCalendar/apc.nvim",
-    "stars": 7,
-    "openIssues": 2,
-    "updated": "2023-03-21T06:44:54.000Z",
-    "description": "Plugin providing \"A People's Calendar\" for Neovim, written in lua.",
     "url": "https://github.com/aPeoplesCalendar/apc.nvim",
-    "tags": []
+    "description": "Plugin providing \"A People's Calendar\" for Neovim, written in lua.",
+    "tags": [],
+    "stars": 7,
+    "openIssues": 2
   },
   {
     "name": "artart222/CodeArt",
@@ -443,12 +438,11 @@
   },
   {
     "name": "axkirillov/hbac.nvim",
-    "stars": 89,
-    "openIssues": 1,
-    "updated": "2023-07-03T10:38:07.000Z",
-    "description": "Heuristic buffer auto-close",
     "url": "https://github.com/axkirillov/hbac.nvim",
-    "tags": []
+    "description": "Heuristic buffer auto-close",
+    "tags": [],
+    "stars": 89,
+    "openIssues": 1
   },
   {
     "name": "b0o/incline.nvim",
@@ -484,12 +478,11 @@
   },
   {
     "name": "Badhi/nvim-treesitter-cpp-tools",
-    "stars": 78,
-    "openIssues": 4,
-    "updated": "2023-03-21T03:25:44.000Z",
-    "description": "C++ Helper Snippets Using Treesitter",
     "url": "https://github.com/Badhi/nvim-treesitter-cpp-tools",
-    "tags": []
+    "description": "C++ Helper Snippets Using Treesitter",
+    "tags": [],
+    "stars": 78,
+    "openIssues": 4
   },
   {
     "name": "beauwilliams/focus.nvim",
@@ -541,12 +534,11 @@
   },
   {
     "name": "bennypowers/svgo.nvim",
-    "stars": 1,
-    "openIssues": 0,
-    "updated": "2023-06-20T13:43:52.000Z",
-    "description": "Optimize SVGs in Neovim",
     "url": "https://github.com/bennypowers/svgo.nvim",
-    "tags": []
+    "description": "Optimize SVGs in Neovim",
+    "tags": [],
+    "stars": 1,
+    "openIssues": 0
   },
   {
     "name": "bfredl/nvim-luadev",
@@ -614,12 +606,11 @@
   },
   {
     "name": "Bryley/neoai.nvim",
-    "stars": 372,
-    "openIssues": 18,
-    "updated": "2023-07-12T00:49:47.000Z",
-    "description": "Neovim plugin for intracting with GPT models from OpenAI",
     "url": "https://github.com/Bryley/neoai.nvim",
-    "tags": []
+    "description": "Neovim plugin for intracting with GPT models from OpenAI",
+    "tags": [],
+    "stars": 372,
+    "openIssues": 18
   },
   {
     "name": "camspiers/snap",
@@ -663,12 +654,11 @@
   },
   {
     "name": "Chaitanyabsprip/present.nvim",
-    "stars": 90,
-    "openIssues": 0,
-    "updated": "2022-04-15T06:37:20.000Z",
-    "description": "Presentation plugin for neovim written in lua",
     "url": "https://github.com/Chaitanyabsprip/present.nvim",
-    "tags": []
+    "description": "Presentation plugin for neovim written in lua",
+    "tags": [],
+    "stars": 90,
+    "openIssues": 0
   },
   {
     "name": "Chaitanyabsrip/present.nvim",
@@ -679,12 +669,11 @@
   },
   {
     "name": "charludo/projectmgr.nvim",
-    "stars": 104,
-    "openIssues": 0,
-    "updated": "2023-04-03T15:36:37.000Z",
-    "description": "Quickly switch between projects and automate startup tasks.",
     "url": "https://github.com/charludo/projectmgr.nvim",
-    "tags": []
+    "description": "Quickly switch between projects and automate startup tasks.",
+    "tags": [],
+    "stars": 104,
+    "openIssues": 0
   },
   {
     "name": "chentoast/marks.nvim",
@@ -728,21 +717,19 @@
   },
   {
     "name": "chrisgrieser/nvim-dr-lsp",
-    "stars": 6,
-    "openIssues": 0,
-    "updated": "2023-06-21T14:54:01.000Z",
-    "description": "Status line component showing the number of LSP definition and reference of the token under the cursor.",
     "url": "https://github.com/chrisgrieser/nvim-dr-lsp",
-    "tags": []
+    "description": "Status line component showing the number of LSP definition and reference of the token under the cursor.",
+    "tags": [],
+    "stars": 6,
+    "openIssues": 0
   },
   {
     "name": "chrisgrieser/nvim-early-retirement",
-    "stars": 86,
-    "openIssues": 1,
-    "updated": "2023-05-01T18:40:43.000Z",
-    "description": "Send buffers into early retirement by automatically closing them after x minutes of inactivity.",
     "url": "https://github.com/chrisgrieser/nvim-early-retirement",
-    "tags": []
+    "description": "Send buffers into early retirement by automatically closing them after x minutes of inactivity.",
+    "tags": [],
+    "stars": 86,
+    "openIssues": 1
   },
   {
     "name": "chrisgrieser/nvim-genghis",
@@ -953,12 +940,11 @@
   },
   {
     "name": "danielfalk/smart-open.nvim",
-    "stars": 186,
-    "openIssues": 2,
-    "updated": "2023-07-02T01:23:00.000Z",
-    "description": "Neovim plugin for fast file-finding",
     "url": "https://github.com/danielfalk/smart-open.nvim",
-    "tags": []
+    "description": "Neovim plugin for fast file-finding",
+    "tags": [],
+    "stars": 186,
+    "openIssues": 2
   },
   {
     "name": "danielpieper/telescope-tmuxinator.nvim",
@@ -1096,12 +1082,11 @@
   },
   {
     "name": "dharmx/nvim-colo",
-    "stars": 38,
-    "openIssues": 0,
-    "updated": "2023-05-04T17:09:06.000Z",
-    "description": "Theming utlilities for neovim. This is very experimental at the moment.",
     "url": "https://github.com/dharmx/nvim-colo",
-    "tags": []
+    "description": "Theming utlilities for neovim. This is very experimental at the moment.",
+    "tags": [],
+    "stars": 38,
+    "openIssues": 0
   },
   {
     "name": "dinhhuy258/sfm.nvim",
@@ -1144,12 +1129,11 @@
   },
   {
     "name": "dpayne/CodeGPT.nvim",
-    "stars": 666,
-    "openIssues": 0,
-    "updated": "2023-05-01T21:31:49.000Z",
-    "description": "CodeGPT is a plugin for neovim that provides commands to interact with ChatGPT.",
     "url": "https://github.com/dpayne/CodeGPT.nvim",
-    "tags": []
+    "description": "CodeGPT is a plugin for neovim that provides commands to interact with ChatGPT.",
+    "tags": [],
+    "stars": 666,
+    "openIssues": 0
   },
   {
     "name": "dracula/vim",
@@ -1185,12 +1169,11 @@
   },
   {
     "name": "echasnovski/mini.nvim",
-    "stars": 2449,
-    "openIssues": 7,
-    "updated": "2023-07-11T14:57:59.000Z",
-    "description": "Library of 30+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort",
     "url": "https://github.com/echasnovski/mini.nvim",
-    "tags": []
+    "description": "Library of 30+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort",
+    "tags": [],
+    "stars": 2449,
+    "openIssues": 7
   },
   {
     "name": "echasnovski/mini.nvim#colorschemes",
@@ -1452,21 +1435,19 @@
   },
   {
     "name": "elentok/scriptify.nvim",
-    "stars": 4,
-    "openIssues": 0,
-    "updated": "2023-07-09T18:36:11.000Z",
-    "description": "Creates scripts files by adding shebang and making them executable",
     "url": "https://github.com/elentok/scriptify.nvim",
-    "tags": []
+    "description": "Creates scripts files by adding shebang and making them executable",
+    "tags": [],
+    "stars": 4,
+    "openIssues": 0
   },
   {
     "name": "elentok/togglr.nvim",
-    "stars": 5,
-    "openIssues": 0,
-    "updated": "2023-07-09T18:38:53.000Z",
-    "description": "Vim plugin that toggles values in the text",
     "url": "https://github.com/elentok/togglr.nvim",
-    "tags": []
+    "description": "Vim plugin that toggles values in the text",
+    "tags": [],
+    "stars": 5,
+    "openIssues": 0
   },
   {
     "name": "elihunter173/dirbuf.nvim",
@@ -1478,12 +1459,11 @@
   },
   {
     "name": "elixir-tools/elixir-tools.nvim",
-    "stars": 255,
-    "openIssues": 15,
-    "updated": "2023-07-05T03:35:09.000Z",
-    "description": "Neovim plugin for Elixir",
     "url": "https://github.com/elixir-tools/elixir-tools.nvim",
-    "tags": []
+    "description": "Neovim plugin for Elixir",
+    "tags": [],
+    "stars": 255,
+    "openIssues": 15
   },
   {
     "name": "ellisonleao/carbon-now.nvim",
@@ -1631,12 +1611,11 @@
   },
   {
     "name": "folke/flash.nvim",
-    "stars": 855,
-    "openIssues": 1,
-    "updated": "2023-07-13T11:34:18.000Z",
-    "description": "Navigate your code with search labels, enhanced character motions and Treesitter integration",
     "url": "https://github.com/folke/flash.nvim",
-    "tags": []
+    "description": "Navigate your code with search labels, enhanced character motions and Treesitter integration",
+    "tags": [],
+    "stars": 855,
+    "openIssues": 1
   },
   {
     "name": "folke/lazy.nvim",
@@ -2228,12 +2207,11 @@
   },
   {
     "name": "jceb/blinds.nvim",
-    "stars": 8,
-    "openIssues": 1,
-    "updated": "2022-09-21T14:12:48.000Z",
-    "description": "blinds.nvim emphasizes the current window by shading the non-active windows",
     "url": "https://github.com/jceb/blinds.nvim",
-    "tags": []
+    "description": "blinds.nvim emphasizes the current window by shading the non-active windows",
+    "tags": [],
+    "stars": 8,
+    "openIssues": 1
   },
   {
     "name": "jedrzejboczar/possession.nvim",
@@ -2420,30 +2398,27 @@
   },
   {
     "name": "justinhj/battery.nvim",
-    "stars": 43,
-    "openIssues": 5,
-    "updated": "2023-04-27T03:12:46.000Z",
-    "description": "Neovim plugin to detect and view battery information",
     "url": "https://github.com/justinhj/battery.nvim",
-    "tags": []
+    "description": "Neovim plugin to detect and view battery information",
+    "tags": [],
+    "stars": 43,
+    "openIssues": 5
   },
   {
     "name": "justinmk/vim-dirvish",
-    "stars": 1112,
-    "openIssues": 16,
-    "updated": "2023-06-18T13:35:04.000Z",
-    "description": "Directory viewer for Vim :zap:",
     "url": "https://github.com/justinmk/vim-dirvish",
-    "tags": []
+    "description": "Directory viewer for Vim :zap:",
+    "tags": [],
+    "stars": 1112,
+    "openIssues": 16
   },
   {
     "name": "justinmk/vim-sneak",
-    "stars": 3003,
-    "openIssues": 24,
-    "updated": "2023-07-12T17:40:14.000Z",
-    "description": "The missing motion for Vim :athletic_shoe:",
     "url": "https://github.com/justinmk/vim-sneak",
-    "tags": []
+    "description": "The missing motion for Vim :athletic_shoe:",
+    "tags": [],
+    "stars": 3003,
+    "openIssues": 24
   },
   {
     "name": "jvgrootveld/telescope-zoxide",
@@ -2607,21 +2582,19 @@
   },
   {
     "name": "koenverburg/cmd-palette.nvim",
-    "stars": 3,
-    "openIssues": 0,
-    "updated": "2022-12-22T09:20:54.000Z",
-    "description": "A simple function to trigger other plugins, commands and custom functions",
     "url": "https://github.com/koenverburg/cmd-palette.nvim",
-    "tags": []
+    "description": "A simple function to trigger other plugins, commands and custom functions",
+    "tags": [],
+    "stars": 3,
+    "openIssues": 0
   },
   {
     "name": "koenverburg/minimal-tabline.nvim",
-    "stars": 6,
-    "openIssues": 0,
-    "updated": "2022-12-22T09:17:28.000Z",
-    "description": "A minimal tabline, that's it",
     "url": "https://github.com/koenverburg/minimal-tabline.nvim",
-    "tags": []
+    "description": "A minimal tabline, that's it",
+    "tags": [],
+    "stars": 6,
+    "openIssues": 0
   },
   {
     "name": "koenverburg/peepsight.nvim",
@@ -2657,12 +2630,11 @@
   },
   {
     "name": "ktunprasert/gui-font-resize.nvim",
-    "stars": 5,
-    "openIssues": 0,
-    "updated": "2022-07-03T16:10:29.000Z",
-    "description": "Plugin for Neovim to easily resize all guifont option including the fallbacks fonts",
     "url": "https://github.com/ktunprasert/gui-font-resize.nvim",
-    "tags": []
+    "description": "Plugin for Neovim to easily resize all guifont option including the fallbacks fonts",
+    "tags": [],
+    "stars": 5,
+    "openIssues": 0
   },
   {
     "name": "kvrohit/mellow.nvim",
@@ -2842,12 +2814,11 @@
   },
   {
     "name": "linrongbin16/gitlinker.nvim",
-    "stars": 13,
-    "openIssues": 0,
-    "updated": "2023-07-12T03:20:44.000Z",
-    "description": "A fork of ruifm's gitlinker, refactored with pattern based rule engine, windows support and other enhancements.",
     "url": "https://github.com/linrongbin16/gitlinker.nvim",
-    "tags": []
+    "description": "A fork of ruifm's gitlinker, refactored with pattern based rule engine, windows support and other enhancements.",
+    "tags": [],
+    "stars": 13,
+    "openIssues": 0
   },
   {
     "name": "linrongbin16/lin.nvim",
@@ -2891,12 +2862,11 @@
   },
   {
     "name": "lkhphuc/jupyter-kernel.nvim",
-    "stars": 56,
-    "openIssues": 3,
-    "updated": "2023-03-25T17:40:54.000Z",
-    "description": "Get (IPython) Jupyter kernel completion suggestions and object inspection into Neovim.",
     "url": "https://github.com/lkhphuc/jupyter-kernel.nvim",
-    "tags": []
+    "description": "Get (IPython) Jupyter kernel completion suggestions and object inspection into Neovim.",
+    "tags": [],
+    "stars": 56,
+    "openIssues": 3
   },
   {
     "name": "lmburns/kimbox",
@@ -3011,12 +2981,11 @@
   },
   {
     "name": "lvim-tech/lvim",
-    "stars": 306,
-    "openIssues": 0,
-    "updated": "2023-07-12T05:59:13.000Z",
-    "description": "LVIM IDE is a modular Neovim configuration written in LUA with full customization. LSP support for 60+ languages. Debug support for c, cpp, dart, elixir, go, haskell, java, javascript/typescript, lua, php, python, ruby, rust.",
     "url": "https://github.com/lvim-tech/lvim",
-    "tags": []
+    "description": "LVIM IDE is a modular Neovim configuration written in LUA with full customization. LSP support for 60+ languages. Debug support for c, cpp, dart, elixir, go, haskell, java, javascript/typescript, lua, php, python, ruby, rust.",
+    "tags": [],
+    "stars": 306,
+    "openIssues": 0
   },
   {
     "name": "m-demare/attempt.nvim",
@@ -3100,12 +3069,11 @@
   },
   {
     "name": "Massolari/forem.nvim",
-    "stars": 16,
-    "openIssues": 2,
-    "updated": "2022-08-04T19:42:14.000Z",
-    "description": "Neovim plugin to read, write and post articles on Forem platforms like dev.to",
     "url": "https://github.com/Massolari/forem.nvim",
-    "tags": []
+    "description": "Neovim plugin to read, write and post articles on Forem platforms like dev.to",
+    "tags": [],
+    "stars": 16,
+    "openIssues": 2
   },
   {
     "name": "matbme/JABS.nvim",
@@ -3197,12 +3165,11 @@
   },
   {
     "name": "mhanberg/output-panel.nvim",
-    "stars": 53,
-    "openIssues": 1,
-    "updated": "2023-07-09T17:33:53.000Z",
-    "description": "A panel to view the logs from your LSP servers.",
     "url": "https://github.com/mhanberg/output-panel.nvim",
-    "tags": []
+    "description": "A panel to view the logs from your LSP servers.",
+    "tags": [],
+    "stars": 53,
+    "openIssues": 1
   },
   {
     "name": "mhartington/formatter.nvim",
@@ -3254,12 +3221,11 @@
   },
   {
     "name": "MisanthropicBit/decipher.nvim",
-    "stars": 1,
-    "openIssues": 0,
-    "updated": "2023-07-09T15:54:06.000Z",
-    "description": "A neovim plugin for encoding and decoding text",
     "url": "https://github.com/MisanthropicBit/decipher.nvim",
-    "tags": []
+    "description": "A neovim plugin for encoding and decoding text",
+    "tags": [],
+    "stars": 1,
+    "openIssues": 0
   },
   {
     "name": "miversen33/import.nvim",
@@ -3359,12 +3325,11 @@
   },
   {
     "name": "mrjones2014/smart-splits.nvim",
-    "stars": 452,
-    "openIssues": 5,
-    "updated": "2023-06-26T11:32:32.000Z",
-    "description": "🧠 Smart, seamless, directional navigation and resizing of Neovim + terminal multiplexer splits. Supports tmux, Wezterm, and Kitty. Think about splits in terms of \"up/down/left/right\".",
     "url": "https://github.com/mrjones2014/smart-splits.nvim",
-    "tags": []
+    "description": "🧠 Smart, seamless, directional navigation and resizing of Neovim + terminal multiplexer splits. Supports tmux, Wezterm, and Kitty. Think about splits in terms of \"up/down/left/right\".",
+    "tags": [],
+    "stars": 452,
+    "openIssues": 5
   },
   {
     "name": "ms-jpq/chadtree",
@@ -3639,12 +3604,11 @@
   },
   {
     "name": "norflin321/bicolors",
-    "stars": 0,
-    "openIssues": 0,
-    "updated": "2023-03-07T15:50:27.000Z",
-    "description": "collection of bicolors themes for nvim",
     "url": "https://github.com/norflin321/bicolors",
-    "tags": []
+    "description": "collection of bicolors themes for nvim",
+    "tags": [],
+    "stars": 0,
+    "openIssues": 0
   },
   {
     "name": "notomo/cmdbuf.nvim",
@@ -4047,12 +4011,11 @@
   },
   {
     "name": "Olical/nfnl",
-    "stars": 30,
-    "openIssues": 1,
-    "updated": "2023-07-13T10:35:35.000Z",
-    "description": "Enhance your Neovim with Fennel",
     "url": "https://github.com/Olical/nfnl",
-    "tags": []
+    "description": "Enhance your Neovim with Fennel",
+    "tags": [],
+    "stars": 30,
+    "openIssues": 1
   },
   {
     "name": "olimorris/onedarkpro.nvim",
@@ -4151,12 +4114,11 @@
   },
   {
     "name": "Pakrohk-DotFiles/NvPak",
-    "stars": 79,
-    "openIssues": 5,
-    "updated": "2023-07-08T18:52:17.000Z",
-    "description": "A clean config for neovim to be of particular complexity",
     "url": "https://github.com/Pakrohk-DotFiles/NvPak",
-    "tags": []
+    "description": "A clean config for neovim to be of particular complexity",
+    "tags": [],
+    "stars": 79,
+    "openIssues": 5
   },
   {
     "name": "petertriho/nvim-scrollbar",
@@ -4344,12 +4306,11 @@
   },
   {
     "name": "rawnly/gist.nvim",
-    "stars": 132,
-    "openIssues": 2,
-    "updated": "2023-06-19T15:41:06.000Z",
-    "description": "Neovim plugin that allows you to create a Github Gist from the current file",
     "url": "https://github.com/rawnly/gist.nvim",
-    "tags": []
+    "description": "Neovim plugin that allows you to create a Github Gist from the current file",
+    "tags": [],
+    "stars": 132,
+    "openIssues": 2
   },
   {
     "name": "ray-x/aurora",
@@ -4656,12 +4617,11 @@
   },
   {
     "name": "ryo33/nvim-cmp-rust",
-    "stars": 2,
-    "openIssues": 0,
-    "updated": "2023-06-11T12:32:22.000Z",
-    "description": "Useful nvim-cmp comparators for rust-analyzer",
     "url": "https://github.com/ryo33/nvim-cmp-rust",
-    "tags": []
+    "description": "Useful nvim-cmp comparators for rust-analyzer",
+    "tags": [],
+    "stars": 2,
+    "openIssues": 0
   },
   {
     "name": "s1n7ax/nvim-comment-frame",
@@ -4761,12 +4721,11 @@
   },
   {
     "name": "Saverio976/music.nvim",
-    "stars": 6,
-    "openIssues": 0,
-    "updated": "2022-10-07T17:00:01.000Z",
-    "description": "play music/video on neovim",
     "url": "https://github.com/Saverio976/music.nvim",
-    "tags": []
+    "description": "play music/video on neovim",
+    "tags": [],
+    "stars": 6,
+    "openIssues": 0
   },
   {
     "name": "savq/melange-nvim",
@@ -4818,12 +4777,11 @@
   },
   {
     "name": "sekke276/dark_flat.nvim",
-    "stars": 20,
-    "openIssues": 0,
-    "updated": "2023-06-23T14:57:58.000Z",
-    "description": "No description",
     "url": "https://github.com/sekke276/dark_flat.nvim",
-    "tags": []
+    "description": "No description",
+    "tags": [],
+    "stars": 20,
+    "openIssues": 0
   },
   {
     "name": "shaeinst/penvim",
@@ -5035,12 +4993,11 @@
   },
   {
     "name": "sonjiku/yawnc.nvim",
-    "stars": 1,
-    "openIssues": 0,
-    "updated": "2023-06-25T17:20:56.000Z",
-    "description": "Yet Another pyWal Neovim Colorscheme",
     "url": "https://github.com/sonjiku/yawnc.nvim",
-    "tags": []
+    "description": "Yet Another pyWal Neovim Colorscheme",
+    "tags": [],
+    "stars": 1,
+    "openIssues": 0
   },
   {
     "name": "SpaceVim/SpaceVim",
@@ -5115,12 +5072,11 @@
   },
   {
     "name": "strash/everybody-wants-that-line.nvim",
-    "stars": 22,
-    "openIssues": 0,
-    "updated": "2023-03-02T17:38:21.000Z",
-    "description": "Minimalistic, informative and elegant statusline for neovim.",
     "url": "https://github.com/strash/everybody-wants-that-line.nvim",
-    "tags": []
+    "description": "Minimalistic, informative and elegant statusline for neovim.",
+    "tags": [],
+    "stars": 22,
+    "openIssues": 0
   },
   {
     "name": "sudormrfbin/cheatsheet.nvim",
@@ -5284,12 +5240,11 @@
   },
   {
     "name": "theory-of-everything/nii-nvim",
-    "stars": 108,
-    "openIssues": 1,
-    "updated": "2022-09-24T03:59:20.000Z",
-    "description": "A minimal neovim configuration",
     "url": "https://github.com/theory-of-everything/nii-nvim",
-    "tags": []
+    "description": "A minimal neovim configuration",
+    "tags": [],
+    "stars": 108,
+    "openIssues": 1
   },
   {
     "name": "ThePrimeagen/harpoon",
@@ -5301,12 +5256,11 @@
   },
   {
     "name": "ThePrimeagen/refactoring.nvim",
-    "stars": 1784,
-    "openIssues": 23,
-    "updated": "2023-07-11T22:41:18.000Z",
-    "description": "The Refactoring library based off the Refactoring book by Martin Fowler",
     "url": "https://github.com/ThePrimeagen/refactoring.nvim",
-    "tags": []
+    "description": "The Refactoring library based off the Refactoring book by Martin Fowler",
+    "tags": [],
+    "stars": 1784,
+    "openIssues": 23
   },
   {
     "name": "ThePrimeagen/vim-be-good",
@@ -5326,12 +5280,11 @@
   },
   {
     "name": "TimotheeSai/git-sessions.nvim",
-    "stars": 2,
-    "openIssues": 0,
-    "updated": "2023-02-01T09:54:40.000Z",
-    "description": "Use nvim sessions with git branch",
     "url": "https://github.com/TimotheeSai/git-sessions.nvim",
-    "tags": []
+    "description": "Use nvim sessions with git branch",
+    "tags": [],
+    "stars": 2,
+    "openIssues": 0
   },
   {
     "name": "TimUntersberger/neofs",
@@ -5431,21 +5384,19 @@
   },
   {
     "name": "tomiis4/BufferTabs.nvim",
-    "stars": 20,
-    "openIssues": 0,
-    "updated": "2023-07-12T19:17:42.000Z",
-    "description": "A simple, fancy tabline for Neovim.",
     "url": "https://github.com/tomiis4/BufferTabs.nvim",
-    "tags": []
+    "description": "A simple, fancy tabline for Neovim.",
+    "tags": [],
+    "stars": 20,
+    "openIssues": 0
   },
   {
     "name": "tomiis4/hypersonic.nvim",
-    "stars": 133,
-    "openIssues": 0,
-    "updated": "2023-07-10T15:26:34.000Z",
-    "description": "A Neovim plugin that provides an explanation for regular expressions.",
     "url": "https://github.com/tomiis4/hypersonic.nvim",
-    "tags": []
+    "description": "A Neovim plugin that provides an explanation for regular expressions.",
+    "tags": [],
+    "stars": 133,
+    "openIssues": 0
   },
   {
     "name": "topaxi/gh-actions.nvim",
@@ -5520,12 +5471,11 @@
   },
   {
     "name": "uloco/bluloco.nvim",
-    "stars": 167,
-    "openIssues": 19,
-    "updated": "2023-04-26T15:49:48.000Z",
-    "description": "bluloco theme port for neovim",
     "url": "https://github.com/uloco/bluloco.nvim",
-    "tags": []
+    "description": "bluloco theme port for neovim",
+    "tags": [],
+    "stars": 167,
+    "openIssues": 19
   },
   {
     "name": "utilyre/barbecue.nvim",
@@ -5561,12 +5511,11 @@
   },
   {
     "name": "vigoux/azy.nvim",
-    "stars": 0,
-    "openIssues": 0,
-    "updated": "2023-06-19T11:37:37.652Z",
-    "description": "Simple and fast fuzzy finder for neovim",
     "url": "https://github.com/vigoux/azy.nvim",
-    "tags": []
+    "description": "Simple and fast fuzzy finder for neovim",
+    "tags": [],
+    "stars": 0,
+    "openIssues": 0
   },
   {
     "name": "vigoux/complementree.nvim",
@@ -5600,12 +5549,11 @@
   },
   {
     "name": "Vonr/align.nvim",
-    "stars": 87,
-    "openIssues": 6,
-    "updated": "2022-11-14T00:56:01.000Z",
-    "description": "A minimal plugin for NeoVim for aligning lines",
     "url": "https://github.com/Vonr/align.nvim",
-    "tags": []
+    "description": "A minimal plugin for NeoVim for aligning lines",
+    "tags": [],
+    "stars": 87,
+    "openIssues": 6
   },
   {
     "name": "vuki656/package-info.nvim",
@@ -5777,12 +5725,11 @@
   },
   {
     "name": "wuelnerdotexe/vim-enfocado",
-    "stars": 321,
-    "openIssues": 1,
-    "updated": "2023-07-04T17:20:23.000Z",
-    "description": "How themes should be.",
     "url": "https://github.com/wuelnerdotexe/vim-enfocado",
-    "tags": []
+    "description": "How themes should be.",
+    "tags": [],
+    "stars": 321,
+    "openIssues": 1
   },
   {
     "name": "xeluxee/competitest.nvim",
@@ -5794,12 +5741,11 @@
   },
   {
     "name": "xero/miasma.nvim",
-    "stars": 16,
-    "openIssues": 0,
-    "updated": "2023-07-02T06:11:53.000Z",
-    "description": "a fog descends upon your editor ☁  dark color scheme inspired by the woods for vim and neovim",
     "url": "https://github.com/xero/miasma.nvim",
-    "tags": []
+    "description": "a fog descends upon your editor ☁  dark color scheme inspired by the woods for vim and neovim",
+    "tags": [],
+    "stars": 16,
+    "openIssues": 0
   },
   {
     "name": "xiyaowong/link-visitor.nvim",
@@ -5947,12 +5893,11 @@
   },
   {
     "name": "zaldih/themery.nvim",
-    "stars": 35,
-    "openIssues": 0,
-    "updated": "2023-06-22T11:38:24.000Z",
-    "description": "🎨 Convenient plugin to switch between themes installed in neovim through a menu.",
     "url": "https://github.com/zaldih/themery.nvim",
-    "tags": []
+    "description": "🎨 Convenient plugin to switch between themes installed in neovim through a menu.",
+    "tags": [],
+    "stars": 35,
+    "openIssues": 0
   },
   {
     "name": "zbirenbaum/copilot.lua",
@@ -6012,12 +5957,11 @@
   },
   {
     "name": "zootedb0t/citruszest.nvim",
-    "stars": 8,
-    "openIssues": 0,
-    "updated": "2023-07-13T05:51:41.000Z",
-    "description": "A vibrant and refreshing neovim colorscheme inspired by citrus fruits.",
     "url": "https://github.com/zootedb0t/citruszest.nvim",
-    "tags": []
+    "description": "A vibrant and refreshing neovim colorscheme inspired by citrus fruits.",
+    "tags": [],
+    "stars": 8,
+    "openIssues": 0
   },
   {
     "name": "~henriquehbr/ataraxis.lua",
