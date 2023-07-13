@@ -3,6 +3,7 @@ import { z } from 'zod'
 import fs from 'node:fs'
 import path from 'node:path'
 import _ from 'lodash'
+import * as prettier from 'prettier'
 
 const parsedResultSchema = z.object({
   name: z.string(),
@@ -85,40 +86,66 @@ const mergeRight = (lhs: Plugin, rhs?: Plugin): Plugin => {
   }
 
   if (tags) {
-    lhs.tags = [...new Set(...[...tags, ...lhs.tags])]
+    lhs.tags = [...new Set([...tags, ...lhs.tags])]
   }
 
   return lhs
 }
 
-const mergePlugins = (results: Plugin[]): Plugin[] => {
-  const existingPlugins: Plugin[] = z
-    .array(pluginSchema)
-    .parse(JSON.parse(fs.readFileSync(fout).toString()))
+const mergePlugins = (rhs: Plugin[], lhs: Plugin[]): Plugin[] => {
+  const rhsNames = _.keyBy(rhs, ({ name }) => name.toLowerCase())
+  const lhsNames = _.keyBy(lhs, ({ name }) => name.toLowerCase())
 
-  const existingPluginsByName = _.keyBy(existingPlugins, (plugin) =>
-    plugin.name.toLowerCase(),
-  )
-
-  const [newPlugins, pluginsToMerge] = _.partition(
-    results,
-    ({ name }) => existingPluginsByName[name.toLowerCase()],
-  )
-
-  return [
-    ...newPlugins,
-    ...pluginsToMerge.map((plugin) =>
-      mergeRight(plugin, existingPluginsByName[plugin.name.toLowerCase()]),
+  const names = [
+    ...new Set(
+      [...lhs.map((result) => result.name), ...rhs.map((p) => p.name)].map(
+        (name) => name.toLowerCase(),
+      ),
     ),
   ]
+
+  const plugins = []
+  for (const name of names) {
+    const lhs = rhsNames[name]
+    const rhs = lhsNames[name]
+    if (lhs && rhs) {
+      plugins.push(mergeRight(lhs, rhs))
+    } else {
+      plugins.push(lhs ?? rhs)
+    }
+  }
+
+  return plugins
+}
+
+const writeFile = async (plugins: Plugin[]): Promise<string> => {
+  const prevFile = fs.readFileSync(fout)
+  fs.writeFileSync(fout.replace(/\.json$/, '.bak.json'), prevFile)
+
+  const options = await prettier.resolveConfig(path.resolve(__dirname, '../'))
+  if (!options) {
+    throw new Error('could not find config file for prettier')
+  }
+
+  options.parser = 'json'
+  const json = prettier.format(JSON.stringify(plugins), options)
+  fs.writeFileSync(fout, json)
+  return json
 }
 
 const main = async () => {
   const results = await fetchPlugins()
-  const plugins = mergePlugins(results)
-  const json = _.sortBy(plugins, ({ name }) => name.toLowerCase())
-  console.log('plugins:', JSON.stringify(json, null, 2))
-  fs.writeFileSync(fout, JSON.stringify(json, null, 2))
+
+  const existingPlugins: Plugin[] = z
+    .array(pluginSchema)
+    .parse(JSON.parse(fs.readFileSync(fout).toString()))
+
+  const plugins = mergePlugins(existingPlugins, results)
+  plugins.sort((a, b) => {
+    return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+  })
+
+  return writeFile(plugins)
 }
 
 if (require.main === module) {
